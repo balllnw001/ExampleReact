@@ -1,0 +1,63 @@
+.container{
+    max-width: 960;
+    margin: 0 auto;
+}
+
+.cta-bg{
+    background: url("https://static.dw.com/image/44350920_1006.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-top: 5px solid #ddd;
+    border-bottom: 5px solid #ddd;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.cta-text{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    height: 500px;
+}
+
+.cta-text h2{
+    margin: 0;
+}
+
+.cta-btn{
+    background: #fff;
+    display: inline-block;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid transparent;
+    transition: 0.3s;
+    margin-top: 1rem;
+    border-radius: 5px;
+}
+
+.cta-btn:hover{
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+}
+
+@media screen and (max-width:480px){
+    .cta-text{
+        padding: 0 2rem;
+        align-items: center;
+    } 
+}

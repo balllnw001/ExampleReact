@@ -46,3 +46,12 @@
     background: transparent;
     color: #fff;
 }
+
+@media screen and (max-width:1024px){
+    .banner-con img{
+        width: 100%;
+    }
+    .banner-text{
+        padding: 0 2rem;
+    }
+}
