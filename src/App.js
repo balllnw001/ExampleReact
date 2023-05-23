@@ -1,11 +1,17 @@
-import logo from './logo.svg';
+import Header from './component/Header';
+import Banner from './component/Banner';
+import Content from './component/Content';
+import Footer from './component/Footer';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-
-    </div>
+    <>
+      <Header />
+      <Banner />
+      <Content />
+      <Footer />
+    </>
   );
 }
 
